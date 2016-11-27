@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 
 
 /**
+ *
  * Created by Роман on 23.11.2016.
  */
 public class Main {
@@ -46,23 +47,19 @@ public class Main {
         String currentTime = sdf.format(date);
 
         if (currentTime.matches(morning)) {
-            LOGGER.debug("toGreet finished, current message:"
-                    +resBundle.getString("message.morning"));
+            LOGGER.debug("toGreet finished");
             return resBundle.getString("message.morning");
 
         } else if (currentTime.matches(day)) {
-            LOGGER.debug("toGreet finished, current message:"
-                    +resBundle.getString("message.day"));
+            LOGGER.debug("toGreet finished");
             return resBundle.getString("message.day");
 
         } else if (currentTime.matches(evening)) {
-            LOGGER.debug("toGreet finished, current message:"
-                    +resBundle.getString("message.evening"));
+            LOGGER.debug("toGreet finished");
             return resBundle.getString("message.evening");
 
         } else if (currentTime.matches(night)) {
-            LOGGER.debug("toGreet finished, current message:"
-                    +resBundle.getString("message.night"));
+            LOGGER.debug("toGreet finished");
             return resBundle.getString("message.night");
         }
 
