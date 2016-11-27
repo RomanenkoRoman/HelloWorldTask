@@ -33,6 +33,7 @@ public class Main {
 
         Locale locale = Locale.getDefault();
 
+
         ResourceBundle resBundle = ResourceBundle.getBundle("messages", locale);
 
 
