@@ -1,6 +1,3 @@
-
-
-
 import org.apache.log4j.Logger;
 
 import java.text.SimpleDateFormat;
@@ -10,8 +7,8 @@ import java.util.ResourceBundle;
 
 
 /**
- *
  * Created by Роман on 23.11.2016.
+ *
  */
 public class Main {
     private final static Logger LOGGER = Logger.getLogger(Main.class);
